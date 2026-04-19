@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Muhammad Julda Al Hafiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            600: '#2563eb', 
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                        }
+                    },
+                    boxShadow: {
+                        'premium': '0 10px 30px -10px rgba(0, 0, 0, 0.1)',
+                        'glow': '0 0 20px rgba(37, 99, 235, 0.15)',
+                        'section': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #fafbfc; }
+        .hero-gradient { background: radial-gradient(circle at 10% 20%, rgba(240, 247, 255, 0.7) 0%, rgba(255, 255, 255, 1) 90%); }
+        .card-hover { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1); }
+        /* Smooth section transitions */
+        section { position: relative; }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-md">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-extrabold text-slate-900 tracking-tight">M. JULDA <span class="text-brand-600">AL HAFIZ</span></span>
+            <div class="hidden md:flex space-x-8 font-semibold text-sm text-slate-600 uppercase tracking-wider">
+                <a href="#home" class="hover:text-brand-600 transition">Beranda</a>
+                <a href="#experience" class="hover:text-brand-600 transition">Pengalaman</a>
+                <a href="#skills" class="hover:text-brand-600 transition">Kompetensi</a>
+                <a href="#Sertifikasi" class="hover:text-brand-600 transition">Sertifikasi</a>
+                <a href="#education" class="hover:text-brand-600 transition">Pendidikan</a>
+                <a href="#organization" class="hover:text-brand-600 transition">Organisasi</a>
+            </div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mjuldahafiz@gmail.com" 
+   target="_blank"
+   class="text-sm font-bold bg-brand-600 text-white px-5 py-2.5 rounded-full hover:bg-brand-700 transition shadow-glow active:scale-95"> HUBUNGI SAYA</a>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 px-6 hero-gradient shadow-sm">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-2/3">
+                <span class="inline-block bg-blue-50 text-blue-600 px-4 py-1.5 rounded-lg text-sm font-bold uppercase tracking-widest mb-6 border border-blue-100">
+                    Human Resources Generalist
+                </span>
+                <h1 class="text-4xl md:text-6xl font-black mt-4 leading-[1.1] text-gray-900">
+                    MEMBANGUN FONDASI <span class="text-brand-600">SDM</span> UNGGUL & ADAPTIF
+                </h1>
+                <p class="mt-6 text-lg text-gray-600 leading-relaxed font-medium">
+                    HR Generalist dengan pengalaman mengelola operasional HR harian untuk 100+ karyawan,
+termasuk rekrutmen end-to-end, payroll, absensi, administrasi HR, dokumen kepegawaian, serta
+GA support. Terlibat dalam menangani penyusunan SOP, pengarsipan HR, pemrosesan
+PKWT/PKWTT, serta HR documentation 100+ dokumen perbulan dan mendukung proses
+kepatuhan ketenagakerjaan. Memiliki sertifikat BNSP dan mengikuti berbagai pelatihan HR
+(Payroll, KPI, HRIS, Industrial Relations). Teliti, cepat beradaptasi, dan siap mendukung efektivitas
+fungsi HR di lingkungan kerja yang dinamis..
+                </p>
+                <div class="mt-8 flex flex-wrap gap-5 items-center">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mjuldahafiz@gmail.com" 
+                       target="_blank"
+                       class="bg-slate-900 text-white px-8 py-3.5 rounded-2xl flex items-center gap-3 hover:bg-brand-600 hover:-translate-y-1 transition-all duration-300 shadow-lg active:scale-95 group font-bold text-base">
+                       <i class="fas fa-envelope group-hover:rotate-12 transition-transform"></i> 
+                       HUBUNGI VIA GMAIL
+                    </a>
+                
+                    <div class="flex gap-3">
+                        <a href="https://linkedin.com/in/mjuldahafiz" target="_blank" 
+                           class="w-12 h-12 flex items-center justify-center rounded-xl bg-white border border-slate-200 text-slate-400 hover:text-brand-600 hover:border-brand-600 transition-all shadow-sm">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/6281220754070" target="_blank" 
+                           class="w-12 h-12 flex items-center justify-center rounded-xl bg-white border border-slate-200 text-slate-400 hover:text-green-500 hover:border-green-500 transition-all shadow-sm">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/3 relative">
+                <div class="relative w-64 h-64 md:w-80 md:h-80 mx-auto group">
+                    <div class="absolute inset-0 bg-brand-600 rounded-[2.5rem] rotate-6 opacity-10 group-hover:rotate-12 transition-transform"></div>
+                    <div class="absolute inset-0 bg-white rounded-[2.5rem] flex items-center justify-center overflow-hidden border-4 border-white shadow-2xl z-10">
+                        <img src="base1.jpeg" alt="Foto Profil" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-12 border-y border-gray-100 shadow-section">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <p class="text-3xl font-black text-brand-600">100+</p>
+                <p class="text-xs font-bold text-gray-500 uppercase tracking-widest mt-1">Karyawan Dikelola</p>
+            </div>
+            <div>
+                <p class="text-3xl font-black text-brand-600">15+</p>
+                <p class="text-xs font-bold text-gray-500 uppercase tracking-widest mt-1">Posisi Terisi (2 bln)</p>
+            </div>
+            <div>
+                <p class="text-3xl font-black text-brand-600">10+</p>
+                <p class="text-xs font-bold text-gray-500 uppercase tracking-widest mt-1">SOP Diimplementasi</p>
+            </div>
+            <div>
+                <p class="text-3xl font-black text-brand-600 tracking-tighter">BNSP</p>
+                <p class="text-xs font-bold text-gray-500 uppercase tracking-widest mt-1">Tersertifikasi</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 px-6 bg-white shadow-sm">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-black tracking-tight text-slate-900 flex items-center gap-4 mb-16">
+                <span class="w-12 h-1.5 bg-brand-600 rounded-full"></span> Pengalaman Profesional
+            </h2>
+            
+            <div class="space-y-10">
+                <div class="group relative pl-8 border-l-2 border-slate-100 hover:border-brand-600 transition-colors duration-500">
+                    <div class="absolute w-4 h-4 bg-white border-4 border-slate-200 rounded-full -left-[9px] top-1 group-hover:border-brand-600 transition-all"></div>
+                    <div class="bg-white p-6 rounded-2xl border border-transparent group-hover:border-slate-100 group-hover:shadow-premium transition-all">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-black text-slate-900 tracking-wide uppercase">HR Generalist</h3>
+                                <p class="text-brand-600 font-bold italic">CV. Sumber Rezeki – Bekasi</p>
+                            </div>
+                            <span class="bg-slate-100 text-slate-700 px-4 py-2 rounded-xl text-sm font-bold uppercase tracking-wider self-start border border-slate-200 shadow-sm">
+                                Apr 2025 – Sekarang
+                            </span>
+                        </div>
+                        <ul class="space-y-4 text-slate-600 text-base font-semibold leading-relaxed">
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Mengisi 15+ posisi dalam 3 bulan melalui proses rekrutmen <strong class="text-slate-900">end-to-end</strong></span>
+                            </li>
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Mengelola absensi harian <strong class="text-slate-900"> 100+ karyawan, </strong> termasuk koreksi keterlambatan, lembur, dan izin
+                                    untuk kebutuhan payroll.</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Menghitung <strong class="text-slate-900"> payroll bulanan, </strong> termasuk perhitungan tunjangan, lembur, dan potongan.</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Memproses dan mengelola lebih dari 100+ dokumen hr perbulan (perubahan data karyawan,
+                                    PKWT/PKWTT, SP)</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Membuat dan menyusun 10+ SOP HR & GA, yang meningkatkan keteraturan administrasi dan
+                                    alur kerja divisi</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Melakukan monitoring fasilitas kerja, kebutuhan ATK, perbaikan fasilitas, serta koordinasi GA
+                                    untuk mendukung operasional perusahaan</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="group relative pl-8 border-l-2 border-slate-100 hover:border-brand-600 transition-colors duration-500">
+                    <div class="absolute w-4 h-4 bg-white border-4 border-slate-200 rounded-full -left-[9px] top-1 group-hover:border-brand-600 transition-all"></div>
+                    <div class="bg-white p-6 rounded-2xl border border-transparent group-hover:border-slate-100 group-hover:shadow-premium transition-all">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-black text-slate-900 tracking-wide uppercase">Magang HRGA</h3>
+                                <p class="text-brand-600 font-bold italic">Perusahaan Manufaktur Otomotif – Bekasi</p>
+                            </div>
+                            <span class="bg-slate-100 text-slate-700 px-4 py-2 rounded-xl text-sm font-bold uppercase tracking-wider self-start border border-slate-200 shadow-sm">
+                                Mar 2025 – Apr 2025
+                            </span>
+                        </div>
+                        <ul class="space-y-4 text-slate-600 text-base font-semibold leading-relaxed mt-4">
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Melakukan penataan dan pengarsipan 100+ dokumen HRGA secara sistematis untuk
+                                    meningkatkan efisiensi administrasi</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Melaksanakan monitoring terhadap perbaikan fasilitas kantor serta proses pengadaan loker
+                                    baru bagi karyawan</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <i class="fas fa-check-circle text-brand-600 mt-1.5 text-lg"></i> 
+                                <span>Berpartisipasi aktif dalam koordinasi HRGA untuk memastikan fasilitas memenuhi standar
+                                    operasional </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 px-6 bg-slate-900 rounded-[3rem] mx-4 my-10 relative overflow-hidden shadow-2xl">
+        <div class="max-w-6xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-white">Keahlian & Kompetensi</h2>
+                <p class="text-slate-400 mt-3 font-medium text-base">Kombinasi administrasi teknis dan manajemen strategis SDM.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-brand-600 transition group">
+                    <i class="fas fa-users-cog text-3xl text-brand-600 mb-6 group-hover:scale-110 transition"></i>
+                    <h4 class="text-xl font-bold text-white mb-4">Core HR Functions</h4>
+                    <ul class="text-slate-400 space-y-2 text-base font-medium">
+                        <li>Rekrutmen & Talent Acquisition</li>
+                        <li>Administrasi Payroll & HRIS</li>
+                        <li>Evaluasi Kinerja (KPI)</li>
+                        <li>Training & Development</li>
+                    </ul>
+                </div>
+                <div class="p-8 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-brand-600 transition group">
+                    <i class="fas fa-balance-scale text-3xl text-brand-600 mb-6 group-hover:scale-110 transition"></i>
+                    <h4 class="text-xl font-bold text-white mb-4">Legal & Compliance</h4>
+                    <ul class="text-slate-400 space-y-2 text-base font-medium">
+                        <li>UU Ketenagakerjaan</li>
+                        <li>Administrasi Kontrak Kerja</li>
+                        <li>Sertifikasi BNSP HR Staff</li>
+                        <li>Industrial Relation Specialist</li>
+                    </ul>
+                </div>
+                <div class="p-8 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-brand-600 transition group">
+                    <i class="fas fa-laptop-code text-3xl text-brand-600 mb-6 group-hover:scale-110 transition"></i>
+                    <h4 class="text-xl font-bold text-white mb-4">Tools & Tech</h4>
+                    <ul class="text-slate-400 space-y-2 text-base font-medium">
+                        <li>MS Office & Google Workspace</li>
+                        <li>IT Networking (CCNA Certified)</li>
+                        <li>Public Speaking</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education-certification" class="py-24 px-6 bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto">
+            
+            <div id="education" class="mb-20">
+                <h2 class="text-2xl font-black mb-10 flex items-center gap-3">
+                    <span class="w-2 h-8 bg-brand-600 rounded-full"></span> PENDIDIKAN
+                </h2>
+                <div class="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-premium group hover:shadow-2xl transition max-w-2xl">
+                    <h4 class="font-black text-xl text-slate-900 group-hover:text-brand-600 transition">UNIVERSITAS BHAYANGKARA JAKARTA RAYA</h4>
+                    <div class="flex items-center gap-3 mt-2 mb-4">
+                        <span class="text-brand-600 font-bold">S1 Manajemen</span>
+                        <span class="bg-blue-50 text-blue-700 text-xs font-black px-3 py-0.5 rounded-full border border-blue-100 uppercase">Semester 8</span>
+                    </div>
+                    <p class="text-base text-slate-500 font-medium leading-relaxed">
+                        Meningkatkan Kepuasan Kerja Pada Karyawan Berdasarkan Analisis Pengaruh Keadilan Organisasi dan Beban Kerja dengan Motivasi Kerja Sebagai Variabel Intervening.
+                    </p>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Sertifikasi" class="pt-24 -mt-24">
+        <div class="container mx-auto px-6 md:px-12 lg:px-24">
+            
+            <h2 class="text-3xl font-black mb-12 flex items-center gap-4">
+                <span class="w-3 h-10 bg-brand-600 rounded-full"></span> SERTIFIKASI & PELATIHAN
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-amber-200 transition">
+                    <div class="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center text-amber-600 mb-5">
+                        <i class="fas fa-certificate text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">Staf Admin Pelatihan & Pengembangan</p>
+                    <p class="text-sm font-bold text-amber-600 mt-2">LSP Univ. Bhayangkara (BNSP) - Mei 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">Analisis Beban Kerja, Uraian Jabatan, SI Pekerja, dan Administrasi Jaminan Sosial.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-indigo-200 transition">
+                    <div class="w-14 h-14 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-5">
+                        <i class="fas fa-database text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">HRIS: Human Resources Info System</p>
+                    <p class="text-sm font-bold text-indigo-600 mt-2">Quantum HR Indonesia - Agustus 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">Planning, Analysis, Design, Implementasi, serta Maintenance & Evaluation HRIS.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-purple-200 transition">
+                    <div class="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center text-purple-600 mb-5">
+                        <i class="fas fa-microphone-alt text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">Public Speaking Mastery</p>
+                    <p class="text-sm font-bold text-purple-600 mt-2">Quantum HR Indonesia - Agustus 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">Styles of Speaking, Elevate Skills, Body Language, dan Teknik Handling Nervous.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-blue-200 transition">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 mb-5">
+                        <i class="fas fa-briefcase text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">Pelatihan Kompetensi HR</p>
+                    <p class="text-sm font-bold text-blue-600 mt-2">PT Wahana Insan Prima - Agustus 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">Desain Organisasi Efektif, Langkah Praktis Pembuatan SOP, dan Kompensasi Jaminan Sosial.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-rose-200 transition">
+                    <div class="w-14 h-14 bg-rose-50 rounded-xl flex items-center justify-center text-rose-600 mb-5">
+                        <i class="fas fa-users-cog text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">HR Generalist Specialist</p>
+                    <p class="text-sm font-bold text-rose-600 mt-2">PT MSDM Indonesia - Juli 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">Manajemen HR, Administrasi, Recruitment, UU Ketenagakerjaan, dan People Analytics.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-emerald-200 transition">
+                    <div class="w-14 h-14 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 mb-5">
+                        <i class="fas fa-user-tie text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">Pelatihan HR Staff</p>
+                    <p class="text-sm font-bold text-emerald-600 mt-2">Quantum HR Indonesia - Juli 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">A-Z Recruitment, Payroll, Komponen Upah, Lembur, BPJS, dan Pembuatan SOP/Jobdesc.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-pink-200 transition">
+                    <div class="w-14 h-14 bg-pink-50 rounded-xl flex items-center justify-center text-pink-600 mb-5">
+                        <i class="fas fa-user-plus text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">Recruitment Staff Training</p>
+                    <p class="text-sm font-bold text-pink-600 mt-2">Quantum HR Indonesia - Juli 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">Sourcing Channel, Selection Process, Offering, On boarding, dan Recruitment Metrics.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-cyan-200 transition">
+                    <div class="w-14 h-14 bg-cyan-50 rounded-xl flex items-center justify-center text-cyan-600 mb-5">
+                        <i class="fas fa-chart-line text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">Key Performance Indicator (KPI)</p>
+                    <p class="text-sm font-bold text-cyan-600 mt-2">Quantum HR Indonesia - Juli 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">KPI Based on Jobdesc, Cascading KPI, Step by Step membuat KPI, dan Skor KPI.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-slate-200 transition">
+                    <div class="w-14 h-14 bg-slate-100 rounded-xl flex items-center justify-center text-slate-700 mb-5">
+                        <i class="fas fa-tasks text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">Skill Admin Perkantoran</p>
+                    <p class="text-sm font-bold text-slate-600 mt-2">Quantum HR Indonesia - Juli 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">Dasar Administrasi HR/Marketing, Pengelolaan Dokumen, dan Calendar Management.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-green-200 transition">
+                    <div class="w-14 h-14 bg-green-50 rounded-xl flex items-center justify-center text-green-600 mb-5">
+                        <i class="fas fa-file-invoice-dollar text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">Professional HR Payroll</p>
+                    <p class="text-sm font-bold text-green-600 mt-2">PT MSDM Indonesia - Juli 2025</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">UU No 6/2023, Pph 21 TER & Natura, Iuran BPJS, dan Simulasi Proses Payroll.</p>
+                </div>
+    
+                <div class="bg-white p-7 rounded-2xl border border-slate-100 shadow-sm hover:border-blue-200 transition">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 mb-5">
+                        <i class="fas fa-network-wired text-2xl"></i>
+                    </div>
+                    <p class="font-black text-slate-900 uppercase text-sm tracking-wide leading-snug">CCNA 200-301 (Network)</p>
+                    <p class="text-sm font-bold text-blue-600 mt-2">IDN Training Center - Juli 2024</p>
+                    <p class="text-[13px] text-slate-600 font-medium mt-4 leading-relaxed">Network Fundamental, Network Access, IP Connectivity, dan IP Services.</p>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section id="organization" class="py-24 px-6 bg-slate-50 shadow-inner">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-black tracking-tight text-slate-900 flex items-center gap-4 mb-16">
+                <span class="w-12 h-1.5 bg-brand-600 rounded-full"></span> Rekam Jejak Organisasi
+            </h2>
+ 
+            <div class="card-hover bg-white rounded-[2rem] overflow-hidden border border-slate-100 flex flex-col md:flex-row-reverse shadow-premium">
+                <div class="md:w-1/3 bg-slate-200">
+                    <img src="asisten3.jpeg" alt="Asisten Lab" class="w-full h-64 md:h-full object-cover">
+                </div>
+                <div class="p-8 md:p-10 md:w-2/3">
+                    <span class="px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-black tracking-widest uppercase border border-blue-100 mb-6 inline-block">ACADEMIC</span>
+                    <h3 class="text-2xl font-black text-slate-900 mb-2 leading-tight">Asisten Laboratorium Komputer</h3>
+                    <p class="text-blue-600 text-base font-bold mb-6">FEB Universitas Bhayangkara Jakarta Raya <span class="mx-2 text-slate-300">|</span> 2023 – 2025</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                            <i class="fas fa-caret-right text-blue-600 mt-1"></i>
+                            <span>Memberikan penjelasan dan dukungan teknis yang berbeda kepada lebih dari 90 mahasiswa setiap hari
+                                terkait materi praktikum.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                            <i class="fas fa-caret-right text-blue-600 mt-1"></i>
+                            <span>Menyusun administrasi absensi, nilai, dan laporan praktikum untuk lebih 8-9 mata kuliah dengan total
+                                100+ mahasiswa setiap semester.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                            <i class="fas fa-caret-right text-blue-600 mt-1"></i>
+                            <span>Melaksanakan instruksi dosen dalam tugas operasional untuk memastikan kelancaran aktivitas
+                                laboratorium.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid gap-10">
+                <div class="card-hover bg-white rounded-[2rem] overflow-hidden border border-slate-100 flex flex-col md:flex-row shadow-premium">
+                    <div class="md:w-1/3 bg-slate-200">
+                        <img src="it1.jpeg" alt="GDSC" class="w-full h-64 md:h-full object-cover">
+                    </div>
+                    <div class="p-8 md:p-10 md:w-2/3">
+                        <span class="px-3 py-1 rounded-full bg-brand-50 text-brand-600 text-xs font-black tracking-widest uppercase border border-brand-100 mb-6 inline-block">LEADERSHIP</span>
+                        <h3 class="text-2xl font-black text-slate-900 mb-2 leading-tight">Ketua Divisi IT Networking</h3>
+                        <p class="text-brand-600 text-base font-bold mb-6">UKM Developer Students Club Ubhara <span class="mx-2 text-slate-300">|</span> 2024 – 2025</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                                <i class="fas fa-caret-right text-brand-600 mt-1"></i>
+                                <span>Menyusun dan menjalankan rencana pembelajaran IT Networking untuk pengembangan member.</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                                <i class="fas fa-caret-right text-brand-600 mt-1"></i>
+                                <span>erhasil menyelenggarakan studyjam dan mengelola lebih dari 10 member.</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                                <i class="fas fa-caret-right text-brand-600 mt-1"></i>
+                                <span>Bertanggung jawab atas pelaksanaan studyjam divisi IT Networking.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-white rounded-[2rem] overflow-hidden border border-slate-100 flex flex-col md:flex-row-reverse shadow-premium">
+                    <div class="md:w-1/3 bg-slate-200">
+                        <img src="it2.png" alt="Wakil Ketua" class="w-full h-64 md:h-full object-cover">
+                    </div>
+                    <div class="p-8 md:p-10 md:w-2/3">
+                        <span class="px-3 py-1 rounded-full bg-brand-50 text-brand-600 text-xs font-black tracking-widest uppercase border border-brand-100 mb-6 inline-block">MANAGEMENT</span>
+                        
+                        <h3 class="text-2xl font-black text-slate-900 mb-2 leading-tight">Wakil Ketua Divisi IT Networking</h3>
+                        
+                        <p class="text-brand-600 text-base font-bold mb-6">UKM GDSC Ubhara <span class="mx-2 text-slate-300">|</span> 2023 – 2024</p>
+                        
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                                <i class="fas fa-caret-right text-brand-600 mt-1"></i>
+                                <span>Bekerja sama dengan ketua dalam menyusun dan melaksanakan rencana pembelajaran IT Networking.</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                                <i class="fas fa-caret-right text-brand-600 mt-1"></i>
+                                <span> Mengawasi pelaksanaan program kerja divisi untuk mencapai target dan timline yang ditetapkan.</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-slate-600 text-base font-medium">
+                                <i class="fas fa-caret-right text-brand-600 mt-1"></i>
+                                <span> Membuat laporan pertanggungjawaban kegiatan divisi selama masa kepengurusan bersama ketua
+                                    divisi.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #3266d5;
+        }
+    </style>
+
+    <footer class="bg-white py-16 border-t border-slate-100 text-center shadow-inner">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-xl font-black text-slate-900 mb-8 uppercase tracking-widest">Let's <span class="text-brand-600">Work</span> Together</h2>
+            <p class="text-slate-400 text-xs font-bold uppercase tracking-[0.5em]">© 2026 MUHAMMAD JULDA AL HAFIZ • BEKASI</p>
+        </div>
+    </footer>
+
+</body>
+</html>
